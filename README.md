@@ -4,7 +4,7 @@
 
 A working compiler that can compile a large subset of Scheme into Intel x86, 64-bit assembly language, and then, using the Newtide Assembler (NASM), assemble it into a standalone executable.
 
-## The files for the project**
+## The files of the project
 
 • code-gen.ml: This is the additional code in OCaml. This code implements the constants table, the free-variables table, the interface for the Code_Generation module, the Code_Generation module itself, and many support functions.
 
